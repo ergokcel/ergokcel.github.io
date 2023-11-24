@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(to right, #4e54c8, #8f94fb); /* Gradient background */
+    
+    text-align: center;
+    
+    
+    height: 100vh;
+    
+}
+    
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 5.5em;
+    color: rgb(135, 255, 233); /* Text color */
+    
+    letter-spacing: 2px;
+    animation: glow 2.5s ease-in-out 2 alternate; /* Text glow animation */
+    transform: translateY(-100%);
+    animation: dropIn 1.5s ease-out forwards;
+
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    color: #ffffff; /* Text color */
+    
+    letter-spacing: 2px;
+    animation: glow 4s ease-in-out infinite alternate; /* Text glow animation */
+    transform: translateY(-100%);
+    animation: dropIn 1.5s ease-out forwards;
+}
+
+@keyframes glow {
+    to {
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff; /* Text glow effect */
+    }
+}
+
+button {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 17px;
+    
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #7237fc;
+    border-radius: 13px;
+    color: #ffffff;
+    background-color:#7237fc;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #ffffff;
+    color: #3498db;
+  }
+  
+  /* Additional Styling - Customize as needed */
+  button.primary {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+  }
+  
+  button.secondary {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+  }
+  
+  button.success {
+    background-color: #27ae60;
+    border-color: #27ae60;
+  }
+  
+  p {
+    font-family: 'Arial', sans-serif;
+    border: 2px 2px solid aqua;
+    border-radius: 12.5px;
+    float: inherit;
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #c9ccff;
+    transform: translateY(-100%);
+    animation: dropIn 1.5s ease-out forwards;
+  }
+
+ 
+
+ @keyframes dropIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h3 {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5em;
+  color: #ffffff; /* Text color */
+  
+  letter-spacing: 2px;
+  animation: glow 4s ease-in-out infinite alternate; /* Text glow animation */
+  transform: translateY(-100%);
+  animation: dropIn 1.5s ease-out forwards;
+}
+
+.leftimg {
+  float: left;
+}
+
+h4 {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2em;
+  color: #ffffff; /* Text color */
+  
+  letter-spacing: 2px;
+  animation: glow 4s ease-in-out infinite alternate; /* Text glow animation */
+  transform: translateY(-100%);
+  animation: dropIn 1.5s ease-out forwards;
+}
+
+img {
+  border: 4.5px solid rgb(155, 255, 240);
+  border-radius: 140px;
+}
+
+.rightimg {
+  float: right;
+}
+
+video {
+  border: 4.5px solid rgb(255, 55, 55);
+  border-radius: 140px;
+}
